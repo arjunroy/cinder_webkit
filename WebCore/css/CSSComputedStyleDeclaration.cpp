@@ -22,6 +22,7 @@
 
 #include "config.h"
 #include "CSSComputedStyleDeclaration.h"
+#include "CSSValueKeywords.h"
 
 #include "CSSBorderImageValue.h"
 #include "CSSMutableStyleDeclaration.h"

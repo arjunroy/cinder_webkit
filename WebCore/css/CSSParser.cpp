@@ -1453,7 +1453,7 @@ bool CSSParser::parseValue(int propId, bool important)
         // none | visiblePainted | visibleFill | visibleStroke | visible |
         // painted | fill | stroke | auto | all | inherit
         if (id == CSSValueVisible || id == CSSValueNone || id == CSSValueAll || id == CSSValueAuto ||
-            (id >= CSSValueVisiblepainted && id <= CSSValueStroke))
+            (id >= CSSValueVisiblePainted && id <= CSSValueStroke))
             valid_primitive = true;
         break;
             
